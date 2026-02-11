@@ -1,0 +1,38 @@
+🔢 Ordem prática (checklist)
+Semana / Sessão 1 (Domínio)
+
+ Criar entidade Sale
+
+ Criar Money
+
+ Criar evento SaleCreatedEvent
+
+Sessão 2 (Application)
+
+ Criar ImportSaleDTO
+
+ Criar ImportSalesUseCase
+
+ Validar regras de negócio
+
+Sessão 3 (Infra – Dados)
+
+ Implementar SaleRepositoryImpl
+
+ Conectar banco
+
+Sessão 4 (Infra – Mensageria)
+
+ RabbitConnection
+
+ Publisher
+
+ Consumer
+
+Sessão 5 (HTTP)
+
+ UploadController
+
+ CSV Parser
+
+ Rotas Express

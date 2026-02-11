@@ -1,0 +1,18 @@
+{
+  "name": "backend-sales-app",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start:api": "node src/api/server.js",
+    "start:worker": "node src/worker/worker.js",
+    "dev:api": "node --watch src/api/server.js",
+    "dev:worker": "node --watch src/worker/worker.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "csv-parser": "^3.2.0",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}
